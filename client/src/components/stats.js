@@ -4,7 +4,6 @@ import React, { Component } from "react";
 export default class Stats extends Component {
 
     render() {
-        console.log(this.props.stats);
         let { stats } = this.props;
         return (
             <table>
@@ -16,9 +15,11 @@ export default class Stats extends Component {
                         <th>Gp</th>
                         <th>G</th>
                         <th>A</th>
-                        <th>P</th>
-                        <th>+/-</th>
+                        <th>
+                            <button onClick={() => this.props.sortBy("Points")}>P</button>
+                        </th>
                         <th>PIM</th>
+                        <th>+/-</th>
                     </tr>
                     <AllStats stats={stats} />
                 </tbody>
