@@ -1,0 +1,3381 @@
+[
+    {
+        "team": {
+            "ID": "1",
+            "City": "Tampa Bay",
+            "Name": "Lightning",
+            "Abbreviation": "TBL"
+        },
+        "rank": "1",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "62"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "16"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "3"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "4"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "319"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "221"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2520"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2401"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "51.2"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "259"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "74"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "28.6"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "267"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "40"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "85.0"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "12"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "3"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "128"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2621"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "336"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "798"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "2116"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "23",
+            "City": "Calgary",
+            "Name": "Flames",
+            "Abbreviation": "CGY"
+        },
+        "rank": "2",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "50"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "25"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "7"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "289"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "223"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2490"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2265"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "52.4"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "272"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "53"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "19.5"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "254"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "50"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "80.3"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "18"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "7"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "107"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2654"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "303"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "736"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1233"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "11",
+            "City": "Boston",
+            "Name": "Bruins",
+            "Abbreviation": "BOS"
+        },
+        "rank": "3",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "49"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "24"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "2"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "9"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "257"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "212"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2454"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2385"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "50.7"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "256"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "65"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "25.4"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "245"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "49"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "80.0"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "7"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "14"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "107"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2679"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "324"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "824"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1876"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "5",
+            "City": "Washington",
+            "Name": "Capitals",
+            "Abbreviation": "WSH"
+        },
+        "rank": "4",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "48"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "26"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "0"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "8"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "274"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "248"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2160"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2563"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "45.7"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "240"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "49"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "20.4"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "267"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "55"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "79.4"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "5"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "5"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "104"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2492"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "321"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "778"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1885"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "8",
+            "City": "New York",
+            "Name": "Islanders",
+            "Abbreviation": "NYI"
+        },
+        "rank": "5",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "48"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "27"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "7"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "223"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "191"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2124"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2353"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "47.4"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "228"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "33"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "14.5"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "221"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "45"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "79.6"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "6"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "1"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "103"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2359"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "277"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "654"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "2031"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "26",
+            "City": "San Jose",
+            "Name": "Sharks",
+            "Abbreviation": "SJS"
+        },
+        "rank": "6",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "46"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "27"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "9"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "289"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "258"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2376"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2346"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "50.3"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "250"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "57"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "22.8"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "238"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "45"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "81.1"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "8"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "9"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "101"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2708"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "302"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "770"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1574"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "18",
+            "City": "Nashville",
+            "Name": "Predators",
+            "Abbreviation": "NSH"
+        },
+        "rank": "7",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "47"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "29"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "0"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "6"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "236"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "212"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2537"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2385"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "51.5"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "256"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "34"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "13.3"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "254"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "45"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "82.3"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "8"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "8"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "100"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2679"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "314"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "792"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1492"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "12",
+            "City": "Toronto",
+            "Name": "Maple Leafs",
+            "Abbreviation": "TOR"
+        },
+        "rank": "8",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "46"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "28"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "3"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "8"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "286"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "249"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2629"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2330"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "53.0"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "211"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "46"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "21.8"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "206"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "41"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "80.1"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "5"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "9"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "100"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2737"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "230"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "507"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1421"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "10",
+            "City": "Pittsburgh",
+            "Name": "Penguins",
+            "Abbreviation": "PIT"
+        },
+        "rank": "9",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "44"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "26"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "3"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "12"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "271"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "238"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2482"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2426"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "50.6"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "233"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "56"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "24.0"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "219"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "45"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "79.5"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "12"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "15"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "100"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2732"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "279"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "690"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "2363"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "2",
+            "City": "Winnipeg",
+            "Name": "Jets",
+            "Abbreviation": "WPJ"
+        },
+        "rank": "10",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "47"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "30"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "2"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "5"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "270"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "243"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2464"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2396"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "50.7"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "249"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "62"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "24.9"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "249"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "52"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "79.1"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "10"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "7"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "99"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2557"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "313"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "772"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1841"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "3",
+            "City": "Carolina",
+            "Name": "Hurricanes",
+            "Abbreviation": "CAR"
+        },
+        "rank": "11",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "46"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "29"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "0"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "7"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "243"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "221"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2436"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2532"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "49.0"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "248"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "44"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "17.7"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "241"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "44"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "81.7"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "8"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "8"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "99"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2822"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "298"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "641"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "2073"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "17",
+            "City": "St. Louis",
+            "Name": "Blues",
+            "Abbreviation": "STL"
+        },
+        "rank": "12",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "45"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "28"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "9"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "244"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "220"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2450"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2317"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "51.4"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "241"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "50"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "20.7"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "233"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "43"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "81.5"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "5"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "7"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "99"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2604"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "282"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "642"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1615"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "19",
+            "City": "Columbus",
+            "Name": "Blue Jackets",
+            "Abbreviation": "CBJ"
+        },
+        "rank": "13",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "47"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "31"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "5"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "4"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "256"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "231"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2434"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2410"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "50.2"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "221"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "34"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "15.4"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "203"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "30"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "85.2"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "8"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "5"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "98"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2592"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "238"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "538"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1741"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "14",
+            "City": "Montreal",
+            "Name": "Canadiens",
+            "Abbreviation": "MTL"
+        },
+        "rank": "14",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "44"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "30"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "8"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "246"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "236"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2437"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2495"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "49.4"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "238"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "31"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "13.0"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "240"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "46"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "80.8"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "5"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "4"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "96"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2795"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "305"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "709"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "2203"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "142",
+            "City": "Vegas",
+            "Name": "Golden Knights",
+            "Abbreviation": "VGK"
+        },
+        "rank": "15",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "43"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "32"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "0"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "7"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "246"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "228"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2480"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2442"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "50.4"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "234"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "39"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "16.7"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "233"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "44"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "81.1"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "11"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "2"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "93"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2814"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "265"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "585"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "2268"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "27",
+            "City": "Dallas",
+            "Name": "Stars",
+            "Abbreviation": "DAL"
+        },
+        "rank": "16",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "43"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "32"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "0"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "7"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "209"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "200"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2529"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2346"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "51.9"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "216"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "45"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "20.8"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "239"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "41"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "82.8"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "4"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "2"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "93"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2519"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "299"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "732"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1820"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "22",
+            "City": "Colorado",
+            "Name": "Avalanche",
+            "Abbreviation": "COL"
+        },
+        "rank": "17",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "38"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "30"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "0"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "14"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "258"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "244"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2346"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2529"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "48.1"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "286"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "63"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "22.0"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "276"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "58"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "79.0"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "9"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "5"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "90"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2675"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "330"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "798"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1699"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "30",
+            "City": "Arizona",
+            "Name": "Coyotes",
+            "Abbreviation": "ARI"
+        },
+        "rank": "18",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "39"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "35"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "3"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "8"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "209"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "220"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2307"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2511"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "47.9"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "259"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "42"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "16.2"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "231"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "34"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "85.3"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "16"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "9"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "86"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2521"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "281"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "635"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "2028"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "4",
+            "City": "Florida",
+            "Name": "Panthers",
+            "Abbreviation": "FLO"
+        },
+        "rank": "19",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "36"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "32"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "14"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "264"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "273"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2526"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2546"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "49.8"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "270"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "72"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "26.7"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "231"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "43"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "81.4"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "3"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "13"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "86"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2705"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "285"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "702"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1901"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "20",
+            "City": "Chicago",
+            "Name": "Blackhawks",
+            "Abbreviation": "CHI"
+        },
+        "rank": "20",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "36"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "34"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "3"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "12"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "267"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "291"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2356"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2404"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "49.5"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "240"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "48"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "20.0"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "227"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "63"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "72.2"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "6"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "7"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "84"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2670"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "300"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "1001"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1350"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "25",
+            "City": "Minnesota",
+            "Name": "Wild",
+            "Abbreviation": "MIN"
+        },
+        "rank": "21",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "37"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "36"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "0"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "9"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "210"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "233"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2404"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2465"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "49.4"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "241"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "49"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "20.3"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "242"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "44"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "81.8"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "5"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "4"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "83"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2567"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "293"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "676"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1602"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "6",
+            "City": "Philadelphia",
+            "Name": "Flyers",
+            "Abbreviation": "PHI"
+        },
+        "rank": "22",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "37"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "37"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "8"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "241"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "280"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2637"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2181"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "54.7"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "235"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "40"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "17.0"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "236"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "51"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "78.4"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "4"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "11"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "82"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2583"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "307"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "737"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1755"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "21",
+            "City": "Vancouver",
+            "Name": "Canucks",
+            "Abbreviation": "VAN"
+        },
+        "rank": "23",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "35"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "36"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "2"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "11"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "219"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "248"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2404"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2453"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "49.5"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "254"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "43"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "16.9"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "253"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "48"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "81.0"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "7"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "8"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "81"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2432"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "332"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "1069"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1799"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "29",
+            "City": "Anaheim",
+            "Name": "Ducks",
+            "Abbreviation": "ANA"
+        },
+        "rank": "24",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "35"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "37"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "10"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "196"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "248"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2395"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2268"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "51.4"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "214"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "36"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "16.8"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "277"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "55"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "80.1"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "5"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "10"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "80"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2270"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "331"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "788"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1900"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "24",
+            "City": "Edmonton",
+            "Name": "Oilers",
+            "Abbreviation": "EDM"
+        },
+        "rank": "25",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "35"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "38"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "0"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "9"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "229"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "271"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2327"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2483"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "48.4"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "223"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "47"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "21.1"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "252"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "62"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "75.4"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "10"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "7"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "79"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2391"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "311"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "768"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "2192"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "9",
+            "City": "New York",
+            "Name": "Rangers",
+            "Abbreviation": "NYR"
+        },
+        "rank": "26",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "32"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "36"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "14"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "221"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "267"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2188"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2475"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "46.9"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "233"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "44"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "18.9"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "261"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "58"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "77.8"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "7"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "4"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "78"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2392"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "342"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "866"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "2128"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "15",
+            "City": "Buffalo",
+            "Name": "Sabres",
+            "Abbreviation": "BUF"
+        },
+        "rank": "27",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "33"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "39"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "10"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "221"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "268"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2335"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2537"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "47.9"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "235"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "46"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "19.6"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "220"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "41"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "81.4"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "3"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "9"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "76"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2698"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "319"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "1178"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1565"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "16",
+            "City": "Detroit",
+            "Name": "Red Wings",
+            "Abbreviation": "DET"
+        },
+        "rank": "28",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "32"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "40"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "0"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "10"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "224"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "272"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2568"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2490"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "50.8"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "221"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "39"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "17.6"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "246"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "56"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "77.2"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "7"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "7"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "74"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2394"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "296"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "686"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1749"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "7",
+            "City": "New Jersey",
+            "Name": "Devils",
+            "Abbreviation": "NJD"
+        },
+        "rank": "29",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "31"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "41"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "1"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "10"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "219"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "271"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2418"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2482"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "49.3"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "255"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "45"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "17.6"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "255"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "40"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "84.3"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "10"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "10"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "72"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2488"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "322"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "779"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1924"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "28",
+            "City": "Los Angeles",
+            "Name": "Kings",
+            "Abbreviation": "LAK"
+        },
+        "rank": "30",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "31"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "42"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "2"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "9"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "199"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "259"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2410"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2366"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "50.5"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "221"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "35"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "15.8"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "233"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "54"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "76.8"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "3"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "13"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "71"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2359"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "283"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "691"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1907"
+                }
+            }
+        }
+    },
+    {
+        "team": {
+            "ID": "13",
+            "City": "Ottawa",
+            "Name": "Senators",
+            "Abbreviation": "OTT"
+        },
+        "rank": "31",
+        "stats": {
+            "GamesPlayed": {
+                "@abbreviation": "GP",
+                "#text": "82"
+            },
+            "stats": {
+                "Wins": {
+                    "@abbreviation": "W",
+                    "#text": "29"
+                },
+                "Losses": {
+                    "@abbreviation": "L",
+                    "#text": "47"
+                },
+                "OvertimeWins": {
+                    "@abbreviation": "OTW",
+                    "#text": "3"
+                },
+                "OvertimeLosses": {
+                    "@abbreviation": "OTL",
+                    "#text": "6"
+                },
+                "GoalsFor": {
+                    "@abbreviation": "GF",
+                    "#text": "242"
+                },
+                "GoalsAgainst": {
+                    "@abbreviation": "GA",
+                    "#text": "301"
+                },
+                "FaceoffWins": {
+                    "@abbreviation": "F/O W",
+                    "#text": "2387"
+                },
+                "FaceoffLosses": {
+                    "@abbreviation": "F/O L",
+                    "#text": "2428"
+                },
+                "FaceoffPercent": {
+                    "@abbreviation": "F/O %",
+                    "#text": "49.6"
+                },
+                "Powerplays": {
+                    "@abbreviation": "PP",
+                    "#text": "230"
+                },
+                "PowerplayGoals": {
+                    "@abbreviation": "PPG",
+                    "#text": "46"
+                },
+                "PowerplayPercent": {
+                    "@abbreviation": "PP%",
+                    "#text": "20.0"
+                },
+                "PenaltyKills": {
+                    "@abbreviation": "PK",
+                    "#text": "220"
+                },
+                "PenaltyKillGoalsAllowed": {
+                    "@abbreviation": "PKGA",
+                    "#text": "45"
+                },
+                "PenaltyKillPercent": {
+                    "@abbreviation": "PK%",
+                    "#text": "79.5"
+                },
+                "ShorthandedGoalsFor": {
+                    "@abbreviation": "SHGF",
+                    "#text": "4"
+                },
+                "ShorthandedGoalsAgainst": {
+                    "@abbreviation": "SHGA",
+                    "#text": "8"
+                },
+                "Points": {
+                    "@abbreviation": "Pts",
+                    "#text": "64"
+                },
+                "Shots": {
+                    "@abbreviation": "Sh",
+                    "#text": "2428"
+                },
+                "BlockedShots": {
+                    "@abbreviation": "BS",
+                    "#text": "0"
+                },
+                "Penalties": {
+                    "@abbreviation": "Pn",
+                    "#text": "281"
+                },
+                "PenaltyMinutes": {
+                    "@abbreviation": "PIM",
+                    "#text": "715"
+                },
+                "Hits": {
+                    "@abbreviation": "Ht",
+                    "#text": "1782"
+                }
+            }
+        }
+    }
+]

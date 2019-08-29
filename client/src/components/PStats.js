@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-export default class Stats extends Component {
+export default class PStats extends Component {
 
     render() {
         let { stats } = this.props;
@@ -21,15 +21,15 @@ export default class Stats extends Component {
                         <th>PIM</th>
                         <th>+/-</th>
                     </tr>
-                    <AllStats stats={stats} />
+                    <PlayerStats stats={stats} />
                 </tbody>
             </table>
         );
     }
 }
 
-const AllStats = ({ stats }) => {
-    const allStatsList = stats.map(player => {
+const PlayerStats = ({ stats }) => {
+    const PlayerStatsList = stats.filter(allPlayers => allPlayers.player.Position !== "G").map(player => {
         return (
             <tr>
                 <td>{player.player.FirstName} {player.player.LastName}</td>
@@ -45,5 +45,5 @@ const AllStats = ({ stats }) => {
             </tr>
         )
     })
-    return <div>{allStatsList}</div>;
+    return <div>{PlayerStatsList}</div>;
 }

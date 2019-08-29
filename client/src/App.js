@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Stats from './components/stats'
+import PStats from './components/PStats';
+import Gstats from './components/GStats';
 import './App.css';
 import axios from 'axios';
 
@@ -8,7 +9,6 @@ export default class App extends Component {
     stats: [],
     isDirectionAsc: false,
     isLoading: true,
-    playerStats: []
   };
 
   componentDidMount() {
@@ -38,7 +38,8 @@ export default class App extends Component {
     return (
       <div>
         <div>Hello World</div>
-        <Stats stats={this.state.stats} sortBy={this.sortBy} playerStats={this.state.playerStats} />
+        <PStats stats={this.state.stats} sortBy={this.sortBy} />
+        <Gstats stats={this.state.stats} />
       </div>
     )
   }
