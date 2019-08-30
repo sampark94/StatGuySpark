@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import PStatsNew from "./components/PStatsNew";
+import PlayerPoints from "./components/PpointsLeader";
+import PlayerGoals from "./components/PgoalsLeader";
 import Standings from "./components/Standings";
+import GoalieWins from "./components/GwinsLeader";
+import GoalieSaves from "./components/GsaveLeader";
+import Goalie from "./components/goaliestat"
 import Main from "./components/main"
 import 'react-table/react-table.css';
 import axios from 'axios';
@@ -63,11 +67,60 @@ export default class App extends Component {
             }}
           />
           <Route
-            path={"/playerstats"}
+            path={"/playerstats/points"}
             exact
             render={() => {
               return (
-                <PStatsNew
+                <PlayerPoints
+                  stats={this.state.stats}
+                />
+              );
+            }}
+          />
+          <Route
+            path={"/playerstats/goals"}
+            exact
+            render={() => {
+              return (
+                <PlayerGoals
+                  stats={this.state.stats}
+                />
+              );
+            }}
+          />
+          <Route
+            path={"/goaliestats/wins"}
+            exact
+            render={(props) => {
+              return (
+                <GoalieWins
+                  stats={this.state.stats}
+                  {...props}
+                />
+              );
+            }}
+          />
+          <Route
+            path={"/goaliestats/wins/:id"}
+            render={props => {
+              const goalie = this.state.stats.find(player => {
+                return props.match.params.id === player.player.ID
+              });
+              return goalie === undefined ? (
+                <h1>Can't Find Item</h1>
+              ) : (
+                  <Goalie
+                    goalie={goalie}
+                  />
+                );
+            }}
+          />
+          <Route
+            path={"/goaliestats/saves"}
+            exact
+            render={() => {
+              return (
+                <GoalieSaves
                   stats={this.state.stats}
                 />
               );
