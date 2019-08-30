@@ -1,8 +1,30 @@
 import React, { Component } from 'react';
 import PStats from './components/PStats';
 import Gstats from './components/GStats';
+import ReactTable from 'react-table'
+import 'react-table/react-table.css'
 import './App.css';
 import axios from 'axios';
+
+const columns = [{
+  Header: 'First Name',
+  accessor: 'player.FirstName' // String-based value accessors!
+}, {
+  Header: 'Last Name',
+  accessor: 'player.LastName' // String-based value accessors!
+}, {
+  Header: 'Team',
+  accessor: 'team.Name',
+}, {
+  Header: 'Pos',
+  accessor: 'player.Position',
+}, {
+  Header: 'GP',
+  accessor: 'stats.GamesPlayed.#text',
+}, {
+  Header: 'Team',
+  accessor: 'team.Name',
+},]
 
 export default class App extends Component {
   state = {
@@ -38,8 +60,12 @@ export default class App extends Component {
     return (
       <div>
         <div>Hello World</div>
+        <ReactTable
+          data={this.state.stats}
+          columns={columns}
+        />
         <PStats stats={this.state.stats} sortBy={this.sortBy} />
-        <Gstats stats={this.state.stats} />
+        <Gstats stats={this.state.stats} sortBy={this.sortBy} />
       </div>
     )
   }
