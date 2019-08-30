@@ -1,34 +1,15 @@
 import React, { Component } from 'react';
-import PStats from './components/PStats';
-import Gstats from './components/GStats';
-import ReactTable from 'react-table'
-import 'react-table/react-table.css'
-import './App.css';
+import PStatsNew from "./components/PStatsNew";
+import Standings from "./components/Standings";
+import Main from "./components/main"
+import 'react-table/react-table.css';
 import axios from 'axios';
-
-const columns = [{
-  Header: 'First Name',
-  accessor: 'player.FirstName' // String-based value accessors!
-}, {
-  Header: 'Last Name',
-  accessor: 'player.LastName' // String-based value accessors!
-}, {
-  Header: 'Team',
-  accessor: 'team.Name',
-}, {
-  Header: 'Pos',
-  accessor: 'player.Position',
-}, {
-  Header: 'GP',
-  accessor: 'stats.GamesPlayed.#text',
-}, {
-  Header: 'Team',
-  accessor: 'team.Name',
-},]
+import { Route, Switch } from "react-router-dom";
 
 export default class App extends Component {
   state = {
     stats: [],
+    standings: [],
     isDirectionAsc: false,
     isLoading: true,
   };
@@ -36,14 +17,25 @@ export default class App extends Component {
   componentDidMount() {
     this.retrieveInfo();
   }
-
   retrieveInfo = () => {
-    axios.get("http://localhost:8080/stats").then(response => {
-      this.setState({
-        stats: response.data,
-      })
-    });
-  }
+    axios.all(
+      [
+        axios.get("http://localhost:8080/stats").then(response => {
+          this.setState({
+            stats: response.data
+          });
+        })
+      ],
+
+      [
+        axios.get("http://localhost:8080/standings").then(response => {
+          this.setState({
+            standings: response.data,
+          });
+        })
+      ]
+    );
+  };
 
   sortBy = (key) => {
     const sortedStats = this.state.stats.sort((statOne, statTwo) => {
@@ -59,13 +51,41 @@ export default class App extends Component {
 
     return (
       <div>
-        <div>Hello World</div>
-        <ReactTable
-          data={this.state.stats}
-          columns={columns}
-        />
-        <PStats stats={this.state.stats} sortBy={this.sortBy} />
-        <Gstats stats={this.state.stats} sortBy={this.sortBy} />
+        <Switch>
+          <Route
+            path={"/"}
+            exact
+            render={() => {
+              return (
+                <Main
+                />
+              );
+            }}
+          />
+          <Route
+            path={"/playerstats"}
+            exact
+            render={() => {
+              return (
+                <PStatsNew
+                  stats={this.state.stats}
+                />
+              );
+            }}
+          />
+          <Route
+            path={"/standings"}
+            exact
+            render={() => {
+              return (
+                <Standings
+                  standings={this.state.standings}
+                />
+              );
+            }}
+          />
+
+        </Switch>
       </div>
     )
   }
