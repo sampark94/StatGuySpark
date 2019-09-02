@@ -6,7 +6,6 @@ import GoalieWins from "./components/GwinsLeader";
 import GoalieSaves from "./components/GsaveLeader";
 import Goalie from "./components/goaliestat";
 import Skater from "./components/skaterstat";
-import Team from "./components/teamstat";
 import Main from "./components/main";
 import Navbar from "./components/nav";
 import 'react-table/react-table.css';
@@ -153,7 +152,7 @@ export default class App extends Component {
               );
             }}
           />
-          <Route
+          {/* <Route
             path={"/standings/team/:id"}
             exact
             render={props => {
@@ -168,7 +167,7 @@ export default class App extends Component {
                   />
                 );
             }}
-          />
+          /> */}
 
         </Switch>
       </div>

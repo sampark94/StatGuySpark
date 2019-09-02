@@ -100,14 +100,14 @@ export default class Standings extends Component {
                     ]}
                     defaultPageSize={20}
                     className="-striped -highlight"
-                    getTrProps={(state, rowInfo) => {
-                        return {
-                            onClick: (e, handleOriginal) => {
-                                this.props.history.push(`/standings/team/${rowInfo.original.team.ID}`)
-                            }
-                        }
-                    }
-                    }>
+                // getTrProps={(state, rowInfo) => {
+                //     return {
+                //         onClick: (e, handleOriginal) => {
+                //             this.props.history.push(`/standings/team/${rowInfo.original.team.ID}`)
+                //         }
+                //     }
+                // }}
+                >
                 </ReactTable>
             </div>
         )
