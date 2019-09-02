@@ -103,7 +103,7 @@ export default class GoalieWins extends Component {
         const goalies = stats.filter(allPlayers => allPlayers.player.Position === "G");
         return (
             <div>
-                <h1>Wins Leader</h1>
+                <h1 className="pageHeader">Wins Leader</h1>
                 <ReactTable
                     data={goalies}
                     columns={columns}

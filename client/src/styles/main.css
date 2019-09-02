@@ -45,6 +45,10 @@
   background-color: black;
 }
 
+.nav__logo {
+  font-weight: 800;
+}
+
 .nav__logo a {
   color: white;
 }
@@ -139,6 +143,86 @@ th, td {
   text-align: center;
 }
 
+.mainpagebody {
+  background-color: #d9deda;
+  height: 100vh;
+}
+
+.heromessage {
+  margin-bottom: 30px;
+}
+
+.cardcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.card a {
+  color: black;
+  padding-right: 10px;
+}
+
+.card__firstrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cardheader {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.herocontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainmessage {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 *,
 body {
   font-family: "Avenir";
@@ -157,5 +241,11 @@ a {
   -webkit-text-emphasis: none;
           text-emphasis: none;
   text-decoration: none;
+}
+
+.pageHeader {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #918d91;
 }
 /*# sourceMappingURL=main.css.map */

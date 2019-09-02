@@ -83,7 +83,7 @@ export default class PlayerPoints extends Component {
         const skaters = stats.filter(allPlayers => allPlayers.player.Position !== "G");
         return (
             <div>
-                <h1>Points Leader</h1>
+                <h1 className="pageHeader">Points Leader</h1>
                 <ReactTable
                     data={skaters}
                     columns={columns}
