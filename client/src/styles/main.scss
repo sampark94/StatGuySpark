@@ -1,0 +1,20 @@
+@import "./partials/fonts";
+
+@import "./partials/navbar";
+
+*,
+body {
+  font-family: "Avenir";
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+a {
+  text-emphasis: none;
+  text-decoration: none;
+}

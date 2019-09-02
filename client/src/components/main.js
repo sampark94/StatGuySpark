@@ -6,6 +6,7 @@ export default class Main extends Component {
         return (
             <div>
                 <h1>This is the Main Page</h1>
+                <div>Here is the Hero</div>
                 <Link to="/playerstats/points">Points Leader</Link><br />
                 <Link to="/playerstats/goals">Goals Leader </Link><br />
                 <Link to="/goaliestats/wins">Goalie Wins Leader</Link><br />

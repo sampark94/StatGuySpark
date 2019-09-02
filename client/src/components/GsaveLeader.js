@@ -115,10 +115,10 @@ export default class GoalieSaves extends Component {
                     ]}
                     defaultPageSize={20}
                     className="-striped -highlight"
-                    getTrProps={(state, rowInfo, column, instance) => {
+                    getTrProps={(state, rowInfo) => {
                         return {
                             onClick: (e, handleOriginal) => {
-                                console.log('It was in this row:', rowInfo)
+                                this.props.history.push(`/goaliestats/individual/${rowInfo.original.player.ID}`)
                             }
                         }
                     }

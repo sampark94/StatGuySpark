@@ -4,17 +4,21 @@ import PlayerGoals from "./components/PgoalsLeader";
 import Standings from "./components/Standings";
 import GoalieWins from "./components/GwinsLeader";
 import GoalieSaves from "./components/GsaveLeader";
-import Goalie from "./components/goaliestat"
-import Main from "./components/main"
+import Goalie from "./components/goaliestat";
+import Skater from "./components/skaterstat";
+import Team from "./components/teamstat";
+import Main from "./components/main";
+import Navbar from "./components/nav";
 import 'react-table/react-table.css';
 import axios from 'axios';
 import { Route, Switch } from "react-router-dom";
+
+import "./styles/main.css";
 
 export default class App extends Component {
   state = {
     stats: [],
     standings: [],
-    isDirectionAsc: false,
     isLoading: true,
   };
 
@@ -41,20 +45,11 @@ export default class App extends Component {
     );
   };
 
-  sortBy = (key) => {
-    const sortedStats = this.state.stats.sort((statOne, statTwo) => {
-      return this.state.isDirectionAsc ? statOne.stats.stats[key]["#text"] - statTwo.stats.stats[key]["#text"] : statTwo.stats.stats[key]["#text"] - statOne.stats.stats[key]["#text"]
-    })
-    this.setState({
-      stats: sortedStats,
-      isDirectionAsc: !this.state.isDirectionAsc
-    })
-  }
-
   render() {
 
     return (
       <div>
+        <Navbar />
         <Switch>
           <Route
             path={"/"}
@@ -69,10 +64,11 @@ export default class App extends Component {
           <Route
             path={"/playerstats/points"}
             exact
-            render={() => {
+            render={(props) => {
               return (
                 <PlayerPoints
                   stats={this.state.stats}
+                  {...props}
                 />
               );
             }}
@@ -80,12 +76,29 @@ export default class App extends Component {
           <Route
             path={"/playerstats/goals"}
             exact
-            render={() => {
+            render={(props) => {
               return (
                 <PlayerGoals
                   stats={this.state.stats}
+                  {...props}
                 />
               );
+            }}
+          />
+          <Route
+            path={"/playerstats/individual/:id"}
+            exact
+            render={props => {
+              const skater = this.state.stats.find(player => {
+                return props.match.params.id === player.player.ID
+              });
+              return skater === undefined ? (
+                <h1>Can't Find Item</h1>
+              ) : (
+                  <Skater
+                    skater={skater}
+                  />
+                );
             }}
           />
           <Route
@@ -101,7 +114,8 @@ export default class App extends Component {
             }}
           />
           <Route
-            path={"/goaliestats/wins/:id"}
+            path={"/goaliestats/individual/:id"}
+            exact
             render={props => {
               const goalie = this.state.stats.find(player => {
                 return props.match.params.id === player.player.ID
@@ -118,10 +132,11 @@ export default class App extends Component {
           <Route
             path={"/goaliestats/saves"}
             exact
-            render={() => {
+            render={(props) => {
               return (
                 <GoalieSaves
                   stats={this.state.stats}
+                  {...props}
                 />
               );
             }}
@@ -129,12 +144,29 @@ export default class App extends Component {
           <Route
             path={"/standings"}
             exact
-            render={() => {
+            render={(props) => {
               return (
                 <Standings
                   standings={this.state.standings}
+                  {...props}
                 />
               );
+            }}
+          />
+          <Route
+            path={"/standings/team/:id"}
+            exact
+            render={props => {
+              const team = this.state.stats.find(team => {
+                return props.match.params.id === team.team.ID
+              });
+              return team === undefined ? (
+                <h1>Can't Find Item</h1>
+              ) : (
+                  <Team
+                    team={team}
+                  />
+                );
             }}
           />
 

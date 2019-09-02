@@ -118,7 +118,7 @@ export default class GoalieWins extends Component {
                     getTrProps={(state, rowInfo) => {
                         return {
                             onClick: (e, handleOriginal) => {
-                                this.props.history.push(`/goaliestats/wins/${rowInfo.original.player.ID}`)
+                                this.props.history.push(`/goaliestats/individual/${rowInfo.original.player.ID}`)
                             }
                         }
                     }
