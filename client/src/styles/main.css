@@ -145,7 +145,7 @@ th, td {
 
 .mainpagebody {
   background-color: #d9deda;
-  height: 100vh;
+  height: 200vh;
 }
 
 .heromessage {
@@ -198,6 +198,23 @@ th, td {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.card__secondrow {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card__thirdrow {
+  margin-bottom: 10px;
+}
+
+.card__fourthrow {
+  margin-bottom: 10px;
+}
+
+.card__fifthrow {
+  font-weight: bold;
 }
 
 .cardheader {
