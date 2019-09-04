@@ -37,7 +37,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   height: 80px;
-  padding-left: 24px;
+  padding-left: 100px;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -47,6 +47,7 @@
 
 .nav__logo {
   font-weight: 800;
+  font-size: 1.5rem;
 }
 
 .nav__logo a {
@@ -66,7 +67,7 @@
           justify-content: space-evenly;
   color: gray;
   text-align: center;
-  margin-left: 60px;
+  margin-left: 120px;
 }
 
 .nav__pages {
@@ -90,7 +91,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+  background-color: #d9deda;
 }
 
 .headshot {
@@ -135,6 +137,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #d9deda;
+  height: 60vh;
 }
 
 th, td {
@@ -176,6 +180,7 @@ th, td {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 240px;
   padding: 20px;
   border: 1px solid black;
   border-radius: 5%;
@@ -218,7 +223,7 @@ th, td {
 }
 
 .cardheader {
-  margin-left: 40px;
+  margin-left: 100px;
   margin-bottom: 40px;
 }
 
@@ -235,9 +240,42 @@ th, td {
           align-items: center;
 }
 
+.carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .mainmessage {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.search {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.css-2b097c-container {
+  width: 1000px;
+}
+
+.searchTitle {
+  margin-left: 100px;
+  margin-bottom: 40px;
+  margin-top: 80px;
 }
 
 *,
@@ -263,6 +301,7 @@ a {
 .pageHeader {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #918d91;
+  padding-left: 50px;
+  background-color: #d9deda;
 }
 /*# sourceMappingURL=main.css.map */

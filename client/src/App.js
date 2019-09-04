@@ -53,9 +53,11 @@ export default class App extends Component {
           <Route
             path={"/"}
             exact
-            render={() => {
+            render={(props) => {
               return (
                 <Main
+                  stats={this.state.stats}
+                  {...props}
                 />
               );
             }}
@@ -152,23 +154,6 @@ export default class App extends Component {
               );
             }}
           />
-          {/* <Route
-            path={"/standings/team/:id"}
-            exact
-            render={props => {
-              const team = this.state.stats.find(team => {
-                return props.match.params.id === team.team.ID
-              });
-              return team === undefined ? (
-                <h1>Can't Find Item</h1>
-              ) : (
-                  <Team
-                    team={team}
-                  />
-                );
-            }}
-          /> */}
-
         </Switch>
       </div>
     )

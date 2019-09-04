@@ -4,10 +4,10 @@ import 'react-table/react-table.css'
 
 const columns = [{
     Header: 'First Name',
-    accessor: 'player.FirstName' // String-based value accessors!
+    accessor: 'player.FirstName'
 }, {
     Header: 'Last Name',
-    accessor: 'player.LastName' // String-based value accessors!
+    accessor: 'player.LastName'
 }, {
     Header: 'Team',
     accessor: 'team.Abbreviation',

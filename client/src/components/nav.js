@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/images/logo.jpg";
 
 export default class Navbar extends Component {
     render() {
         return (<nav className="nav">
             <div className="nav__logo">
                 <Link to="/">
-                    StatGuySpark
+                    StatGuySpark <img src={logo} alt="" width="30px" height="30px" />
                 </Link>
             </div>
             <div className="nav__options">
